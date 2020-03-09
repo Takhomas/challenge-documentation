@@ -4,7 +4,7 @@ When you are creating a challenge, you can create one independent of the program
 It gives the ability for the final user to select it's own programming language!  
 
 
-Let's say you want write a Fibonacci challenge.  
+Let's say you want to write a Fibonacci challenge.  
 Create a new directory and create a `entry.rs` file, it will define:
 - which language is avalaible for the user,
 - all your tests to validate user code.  
@@ -284,7 +284,7 @@ coding:
 ```
 
 The `success/` directory contains your solution given to the user when it succeeded the challenge.  
-You can provid the implementation you wish.  
+You can provide the implementation you wish.  
 
 To test your program you can use [our CLI](https://pypi.org/project/deadlock-cli/):  
 ```Bash
